@@ -98,3 +98,58 @@
 		</form>
 	</body>
 </html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Calculator </title>
+		<style>
+			input[type="button"]
+			{
+				width: 30px;
+				height: 30px;
+				border: 0px;
+				background-color: transparent;
+				color: #338AFA; 
+			}
+			td
+			{
+				border: 1px solid #338AFA;
+			}
+		</style>​
+	</head>
+
+	<body>
+		<form method="post">
+			<table style="border-collapse: collapse">
+				<tr>
+					<td colspan="4">
+						<input type="text" size="15" value="123" style="border: 0px; text-align: right; color: #338AFA">
+					</td>
+				</tr>
+				<tr>
+					<td> <input type="button" value="1"> </td>
+					<td> <input type="button" value="2"> </td>
+					<td> <input type="button" value="3"> </td>
+					<td> <input type="button" value="+"> </td>
+				</tr>
+				<tr>
+					<td> <input type="button" value="4"> </td>
+					<td> <input type="button" value="5"> </td>
+					<td> <input type="button" value="6"> </td>
+					<td> <input type="button" value="-"> </td>
+				</tr>
+				<tr>
+					<td> <input type="button" value="7"> </td>
+					<td> <input type="button" value="8"> </td>
+					<td> <input type="button" value="9"> </td>
+					<td> <input type="button" value="*"> </td>
+				</tr>
+				<tr>
+					<td colspan="2"> <input type="button" value="0" style="width: 62px"> </td>
+					<td> <input type="button" value="."> </td>
+					<td> <input type="button" value="/"> </td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
