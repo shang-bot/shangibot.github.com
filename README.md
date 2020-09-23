@@ -9,8 +9,6 @@ table {
 th, td {
   text-align: center;
   padding: 8px;
-}
-tr:nth-child(even) {background-color: #f2f2f2;}
 </style>
 </head>
 <body>
